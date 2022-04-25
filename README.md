@@ -18,10 +18,10 @@ as shown in the documentation:
 >  final double? _positionFactor;
 
 >  /// The snapping position alignment regarding the grabbing content.
->  ///
+
 >  /// This is often used when you want a snapping position at the top or bottom
 >  /// of the screen, but want the entire grabbing widget to be visible.
->  ///
+
 >  /// For example, if you have a snapping position at the top of the screen,
 >  /// you usually use [GrabbingContentOffset.bottom]. See example:
 >  /// ```dart
@@ -30,7 +30,7 @@ as shown in the documentation:
 >  ///   grabbingContentOffset: GrabbingContentOffset.bottom,
 >  /// ),
 >  /// ```
->  ///
+
 >  /// Or if you have a snapping position at the bottom of the screen, you
 >  /// usually use [GrabbingContentOffset.bottom]. See example:
 >  /// ```dart
@@ -47,8 +47,10 @@ As shown in the documentation above, one can control the snappingPosition with t
 *InkWell* and *GestureDetector* are mainly alike, both privde many common features like _onTap_ and _onLongPress_
 
 ### Advantages:
-	- InkWell - GestureDetector doen't include ripple effect tap, which InkWell does, so if a developer requires thi effect, he should choose InkWell
-	- GestureDetector - cater to much broader spectrum than InkWell, GestureDetector is better for detecting the user's gesture, and interact with the screen in many wais, furthermore GestureDetector doesn't have to have a Material Widget as an ancestor.
+
+InkWell - GestureDetector doen't include ripple effect tap, which InkWell does, so if a developer requires thi effect, he should choose InkWell
+
+GestureDetector - cater to much broader spectrum than InkWell, GestureDetector is better for detecting the user's gesture, and interact with the screen in many wais, furthermore GestureDetector doesn't have to have a Material Widget as an ancestor.
 
 
 
